@@ -1,0 +1,55 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+\textwidth=5.2in % increase textwidth to get smaller right margin
+
+\begin{document} 
+ 
+\name{Bc. Otto Klapka\\[12pt]} % the \\[12pt] adds a blank line after name
+  
+\begin{resume} 
+
+\begin{tabular}{ll}
+        Narozen: &  13.2.1996 \\
+        E-mail: & klapka.ota@gmail.com \\
+        Telefon: & 734 643 538 \\
+    \end{tabular}
+
+\section{Vzdělání} 
+\textbf{Česká zemědělská univerzita v Praze,} \hfill  2018 - dnes \\
+Provozně ekonomická fakulta, obor informatika, navazující studium\\
+\textbf{Česká zemědělská univerzita v Praze,} \hfill  2015 - 2018 \\
+Provozně ekonomická fakulta, obor informatika, bakalářské studium \\
+\textbf{Střední škola průmyslová Jihlava}, \hfill  2011 - 2015 \\
+obor informační technologie
+
+\section{Zkušenosti}
+ \textbf{Vývojář,} BOOTIQ s.r.o. \hfill 2017 - dnes
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Projekt porovnávání pojištění Chytrý Honza (PHP)
+ \item Commission clearing system pro skupinu FinGo (PHP)
+ \end{itemize}
+
+ \textbf{Vývojář,} Icewarp Technology s.r.o. \hfill 2016 - 2017
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Obecný migrátor dat z konkurenčních serverů (C++)
+ \item CI/CD
+ \end{itemize}
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Znalosti \\ a dovednosti}
+   \begin{tabular}{l p{3in}}
+    Programovací jazyky: & Java, Kotlin, Nodejs, PHP, Python, TypeScript \\
+    Frameworky: & Android, Angular2, NativeScript, ReactJs, ReactNative \\
+    Technologie: &  Docker, Git, Jenkins, MongoDB, MySQL, NginX
+   \end{tabular}
+
+\section{Jazyky}
+Čeština, Angličtina
+
+\end{resume} 
+\end{document} 
+
+
+
